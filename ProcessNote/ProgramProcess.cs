@@ -10,17 +10,24 @@ namespace ProcessNote
     {
         public string Name { get; set; }
         public int PID { get; set; }
-        //public DateTime Time { get; set;}
+        public int CPU { get; set; }
+        public long Memory { get; set; }
+        public TimeSpan ProcTime { get; set; }
+        public DateTime StartTime { get; set; }
+
         public ProgramProcess()
         {
 
         }
 
 
-        public ProgramProcess(string name, int pid)
-        {
+        public ProgramProcess(string name, int pid, long memory, TimeSpan time, DateTime start)
+        { 
             Name = name;
             PID = pid;
+            Memory = memory;
+            ProcTime = time;
+            StartTime = start;
         }
 
         public void GetObjectData(SerializationInfo info, 
@@ -28,17 +35,9 @@ namespace ProcessNote
         {
             info.AddValue("", Name);
             info.AddValue("", PID);
-            //info.AddValue(0, Time);
-
+            info.AddValue("", ProcTime);
         }
 
-        public void Process2(SerializationInfo info,
-            StreamingContext context)
-        {
-            Name = (string)info.GetString("Name");
-            PID = (int)info.GetInt32("PID");
-            //Time = (DateTime)info.GetDateTime("Time");
-        }
 
         internal static IEnumerable<object> GetProcesses()
         {
