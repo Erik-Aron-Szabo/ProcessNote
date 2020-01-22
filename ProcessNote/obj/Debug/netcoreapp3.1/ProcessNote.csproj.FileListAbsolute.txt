@@ -1,0 +1,11 @@
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\obj\Debug\netcoreapp3.1\ProcessNote.csprojAssemblyReference.cache
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\obj\Debug\netcoreapp3.1\ProcessNote.AssemblyInfoInputs.cache
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\obj\Debug\netcoreapp3.1\ProcessNote.AssemblyInfo.cs
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\bin\Debug\netcoreapp3.1\ProcessNote.exe
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\bin\Debug\netcoreapp3.1\ProcessNote.deps.json
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\bin\Debug\netcoreapp3.1\ProcessNote.runtimeconfig.json
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\bin\Debug\netcoreapp3.1\ProcessNote.runtimeconfig.dev.json
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\bin\Debug\netcoreapp3.1\ProcessNote.dll
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\bin\Debug\netcoreapp3.1\ProcessNote.pdb
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\obj\Debug\netcoreapp3.1\ProcessNote.dll
+C:\CSharp\Week2\TW\ProcessNote\ProcessNote\obj\Debug\netcoreapp3.1\ProcessNote.pdb

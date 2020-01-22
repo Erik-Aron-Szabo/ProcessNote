@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComputerDataUsage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CPU>0</CPU>
+  <Memory>0</Memory>
+  <RunningTime>0</RunningTime>
+  <StartTime>0</StartTime>
+</ComputerDataUsage>
