@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
+using System.Diagnostics;
 
 namespace ProcessNote
 {
@@ -10,24 +11,17 @@ namespace ProcessNote
     {
         public string Name { get; set; }
         public int PID { get; set; }
-        public int CPU { get; set; }
-        public long Memory { get; set; }
-        public TimeSpan ProcTime { get; set; }
-        public DateTime StartTime { get; set; }
+        public string  Comment { get; set; }
 
         public ProgramProcess()
         {
-
         }
 
-
-        public ProgramProcess(string name, int pid, long memory, TimeSpan time, DateTime start)
+        public ProgramProcess(string name, int pid, string comment ="")
         { 
             Name = name;
             PID = pid;
-            Memory = memory;
-            ProcTime = time;
-            StartTime = start;
+            Comment = comment;
         }
 
         public void GetObjectData(SerializationInfo info, 
@@ -35,7 +29,6 @@ namespace ProcessNote
         {
             info.AddValue("", Name);
             info.AddValue("", PID);
-            info.AddValue("", ProcTime);
         }
 
 
@@ -48,6 +41,7 @@ namespace ProcessNote
         {
             return base.ToString();
         }
+
     }
 
     
